@@ -1,0 +1,60 @@
+:root {
+  --primary01: hsl(35, 77%, 62%);
+  --primary02: hsl(5, 85%, 63%);
+  --neutral01: hsl(36, 100%, 99%);
+  --neutral02: hsl(233, 8%, 79%);
+  --neutral03: hsl(236, 13%, 42%);
+  --neutral04: hsl(240, 100%, 5%);
+}
+
+
+
+body {
+  min-height: 100vh;
+  padding: 1rem 1rem;
+  font-family: 'Inter';
+  font-size: 0.9375rem;
+}
+
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 40px;
+}
+
+.nav-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  height: 100%;
+  z-index: 5;
+  padding-top: 7rem;
+  background-color: var(--neutral01);
+}
+
+.nav-manu__list {
+  display: grid;
+  list-style-type: none;
+  gap: 1.5rem;
+  padding-left: 1rem;
+}
+
+.nav-manu__list a {
+  text-decoration: none;
+  color: var(--neutral04);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.header-icon-menu {
+  width: 2rem;
+  height: 1rem;
+}
