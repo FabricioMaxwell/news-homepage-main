@@ -80,6 +80,7 @@
 
 
 body {
+  min-height: 100vh;
   padding: 1rem 1rem;
   font-family: 'Inter';
   font-size: 0.9375rem;
@@ -93,25 +94,25 @@ body {
   align-items: center;
 }
 
-.header__nav {
-  position: relative;
-  height: 8rem;
-  width: 40vh;
-  top: 80px;
+.nav-menu {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 15rem;
+  height: 100%;
+  z-index: 5;
+  padding-top: 7rem;
   background-color: var(--neutral01);
 }
 
-.header__list {
+.nav-manu__list {
   display: grid;
-  position: fixed;
-  gap: 1.5rem;
-}
-
-.header__list li {
   list-style-type: none;
+  gap: 1.5rem;
+  padding-left: 1rem;
 }
 
-.header__list li a {
+.nav-manu__list a {
   text-decoration: none;
 }
 
