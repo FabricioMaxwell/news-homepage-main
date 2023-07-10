@@ -36,9 +36,15 @@ body {
   width: 15rem;
   height: 100%;
   z-index: 5;
-  padding-top: 7rem;
+  padding-top: 3rem;
   background-color: var(--neutral01);
 }
+
+.hamburguer-menu-close {
+  margin-left: auto;
+  padding-right: 0.5rem;
+}
+
 
 .nav-manu__list {
   display: grid;
@@ -54,7 +60,60 @@ body {
   font-weight: 400;
 }
 
-.header-icon-menu {
+.hamburguer-menu {
   width: 2rem;
   height: 1rem;
+}
+
+.articleWeb3 {
+  display: grid;
+  gap: 1.3rem;
+}
+
+.articleWeb3-img {
+  margin-top: 1.5rem;
+}
+
+.articleWeb3-h1 {
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin-right: 0.5rem;
+}
+
+.articleWeb3-p {
+  color: var(--neutral03);
+}
+
+.articleWeb3-button {
+  color: var(--neutral01);
+  margin-top: 1.3rem;
+  text-transform: uppercase;
+  background-color: var(--primary02);
+  padding: 0.7rem 1.5rem;
+  border-style: inherit;
+  letter-spacing: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.articleWeb3-button:hover {
+  background-color: brown;
+}
+
+.aside-container {
+  margin-top: 4rem;
+  background-color: var(--neutral04);
+  padding-left: 2rem;
+}
+
+.aside-new {
+  font-size: 2.3rem;
+  padding-top: 2rem;
+  color: var(--primary01);
+  
+}
+
+.aside-article p a{
+  color: var(--neutral01);
+  text-decoration: none;
 }

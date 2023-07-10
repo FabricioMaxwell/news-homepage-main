@@ -19,7 +19,8 @@
   
   <header class="header">
     <img src="./assets/images/logo.svg" alt="Logo" class="header-logo">
-    <nav class="nav-menu">
+    <nav class="nav-menu" id="navItens">
+      <img src="./assets/images/icon-menu-close.svg" alt="icon-menu-close" class="hamburguer-menu-close">
       <ul class="nav-manu__list">
         <li><a href="#">Home</a></li>
         <li><a href="#">New</a></li>
@@ -28,51 +29,51 @@
         <li><a href="#">Categories</a></li>
       </ul>
     </nav>
-    <img src="./assets/images/icon-menu.svg" alt="icon-menu" class="header-icon-menu">
+    <img src="./assets/images/icon-menu.svg" alt="icon-menu" class="hamburguer-menu">
   </header>
   <main>
     <section>
 
-      <section>
+      <article class="articleWeb3">
+        <picture>
+          <source media="(min-width: 800px)" srcset="./assets/images/image-web-3-desktop.jpg">
+            <img src="./assets/images/image-web-3-mobile.jpg" alt="img web 3" class="articleWeb3-img">
+        </picture>
+        <h1 class="articleWeb3-h1">The Bright Future of Web 3.0?</h1>
         <div>
-          <picture>
-            <img src="./assets/images/image-web-3-mobile.jpg" alt="img web 3">
-          </picture>
-          <h1>The Bright Future of Web 3.0?</h1>
-          <div>
-            <p>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-              But is it really fulfilling its promise?
-            </p>
-          <button>Read more</button>
-          </div>
+          <p class="articleWeb3-p">We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+            But is it really fulfilling its promise?
+          </p>
+          <button class="articleWeb3-button">Read more</button>
         </div>
-      </section>
+      </article>
 
       <aside>
-        <div>
-          <h2>New</h2>
+        <div class="aside-container">
+          <h2 class="aside-new">New</h2>
+          <div class="aside-article">
+            <article>
+              <p>
+                <a href="#">Hydrogen VS Electric Cars</a>
+              </p>
+              <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+            </article>
 
-          <div>
-            <p>
-              <a href="#">Hydrogen VS Electric Cars</a>
-            </p>
-            <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
-          </div>
+            <br>
 
-          <br>
+            <article>
+              <p>
+                <a href="#">The Downsides of AI Artistry</a>
+              </p>
+              <p>What are the possible adverse effects of on-demand AI image generation?</p>
+            </article>
 
-          <div>
-            <p>
-              <a href="#">The Downsides of AI Artistry</a>
-            </p>
-            <p>What are the possible adverse effects of on-demand AI image generation?</p>
-          </div>
+            <br>
 
-          <br>
-
-          <div>
-            <p><a href="#">Is VC Funding Drying Up?</a></p>
-            <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            <article>
+              <p><a href="#">Is VC Funding Drying Up?</a></p>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </article>
           </div>
         </div>
       </aside>
@@ -104,6 +105,7 @@
         <div>
           <p>03</p>
           <p><a href="#">The Growth of Gaming</a></p>
+          <p>How the pandemic has sparked fresh opportunities.</p>
         </div>
       </div>
     </section>
@@ -138,11 +140,12 @@
 
   
   
-  How the pandemic has sparked fresh opportunities.
+  
   
 <!--   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
   </div> -->
 </body>
+<script src="./assets/js/index.js"></script>
 </html>
